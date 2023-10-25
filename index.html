@@ -15,11 +15,15 @@
     <h1>PartySwap</h1>
   </div>
 
-  <div class="form">
-      <label>Number of people: </label>
-      <label>Party size: </label>
-      <label>Names of people currently in party: </label>
-      <label>Names of people not in party:</label>      
+  <div id="party-form">
+      <label>Number of people: </label><br> 
+      <input type="number" id="num-people"><br> 
+      <div id="party-size-field"></div>
+      <label>Names of people currently in party:</label><br>
+      <input type="text" class="in-party"><br> 
+      <label>Names of people not in party:</label><br>    
+      <input type="text" class="not-in-party"><br> 
+      <input type="submit" value="Spin wheel!">
   </div>
   <script src="script.js"></script>
 </body>
