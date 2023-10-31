@@ -60,8 +60,6 @@ function fillNameFields() {
 }
 
 
-// TODO: 
-// When number of people and party size are populated, add the correct number of fields for names
 num_people_field.addEventListener("input", (fillNameFields))
 num_party_field.addEventListener("input", (fillNameFields))
 
