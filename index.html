@@ -15,14 +15,19 @@
     <h1>PartySwap</h1>
   </div>
 
-  <div id="party-form">
+  <div id="party-form"> <!--TODO: Remove all <br> and do the line breaks in CSS-->
       <label>Number of people: </label><br> 
       <input type="number" id="num-people"><br> 
-      <div id="party-size-field"></div>
+      <label>Party size: </label><br>
+      <input type="number" id="num-party"><br>
       <label>Names of people currently in party:</label><br>
-      <input type="text" class="in-party"><br> 
+      <div id="in-party-list">
+        <input type="text" class="in-party-input">
+      </div>
       <label>Names of people not in party:</label><br>    
-      <input type="text" class="not-in-party"><br> 
+      <div id="not-in-party-list">
+        <input type="text" class="not-in-party-input">
+      </div>
       <input type="submit" value="Spin wheel!">
   </div>
   <script src="script.js"></script>
